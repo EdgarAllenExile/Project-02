@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #ececec;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -37,16 +37,17 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
+  /* border-radius: 8px;
+  border: 1px solid transparent; */
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+ /*  background-color: #1a1a1a; */
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
@@ -66,4 +67,34 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* toolbar */
+
+.toolbar {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.add_rect {
+  background: url('https://img.icons8.com/nolan/64/rectangle.png');
+  opacity: 0.5;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 60px;
+  height: 30px;
+  /* 
+  background-color: white;
+  border-color: #535bf2; */
+}
+
+.add_rect:hover {
+  background: url('https://img.icons8.com/?size=512&id=56316&format=png');
+  opacity: 1;
+  /* background-color: #535bf2;
+  transition: 0.4s; */
 }
